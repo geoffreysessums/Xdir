@@ -1,7 +1,9 @@
 # Xdir
 
-Geoffrey Sessums  
-Systems Programmin - Fall 2017
+Geoffrey Sessums
+
+Systems Programming (Fall 2017)
+
 Language: C 
 
 ## Description
