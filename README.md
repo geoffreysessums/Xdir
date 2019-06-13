@@ -51,8 +51,6 @@ xdir -l -a
   * size in bytes
 * Prints filenames in the order they are provided by the readdir function.
 
-### Xdir Output
-
 ## Installation
 
 From the command-line:  
@@ -71,6 +69,8 @@ Run command:
 **xdir** *directory*
 
 **xdir** *directory* *switches*
+
+### Xdir Output
 
 Example without switches:
 
