@@ -52,43 +52,46 @@ $ `xdir Data`
         file6
 
 Example with -l switch:
-$ ```xdir Data -l```
-  Data :
-      Program2 D 0 blks 192 bytes
-      Program5 D 0 blks 192 bytes
-      Program4 D 0 blks 224 bytes
-      Program3 D 0 blks 192 bytes
-      file4 F 8 blks 87 bytes
-      file5 F 8 blks 167 bytes
-      file6 F 8 blks 121 bytes
+$ `xdir Data -l`
+
+    Data :
+        Program2 D 0 blks 192 bytes
+        Program5 D 0 blks 192 bytes
+        Program4 D 0 blks 224 bytes
+        Program3 D 0 blks 192 bytes
+        file4 F 8 blks 87 bytes
+        file5 F 8 blks 167 bytes
+        file6 F 8 blks 121 bytes
 
 Example with -a switch:
-$ ```xdir Data -a```
-  Data :
-      .
-      ..
-      Program2
-      Program5
-      Program4
-      Program3
-      file4
-      file5
-      .mydot
-      file6
+$ `xdir Data -a`
+
+    Data :
+        .
+        ..
+        Program2
+        Program5
+        Program4
+        Program3
+        file4
+        file5
+        .mydot
+        file6
 
 Example with both -l and -a switches:
-$ ```xdir Data -l -a```
-  Data :
-      . D 0 blks 320 bytes
-      .. D 0 blks 384 bytes
-      Program2 D 0 blks 192 bytes
-      Program5 D 0 blks 192 bytes
-      Program4 D 0 blks 224 bytes
-      Program3 D 0 blks 192 bytes
-      file4 F 8 blks 87 bytes
-      file5 F 8 blks 167 bytes
-      .mydot F 8 blks 25 bytes
-      file6 F 8 blks 121 bytes
+$ `xdir Data -l -a`
+
+    Data :
+        . D 0 blks 320 bytes
+        .. D 0 blks 384 bytes
+        Program2 D 0 blks 192 bytes
+        Program5 D 0 blks 192 bytes
+        Program4 D 0 blks 224 bytes
+        Program3 D 0 blks 192 bytes
+        file4 F 8 blks 87 bytes
+        file5 F 8 blks 167 bytes
+        .mydot F 8 blks 25 bytes
+        file6 F 8 blks 121 bytes
 
 ## Credits
 
