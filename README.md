@@ -86,6 +86,7 @@ $ `xdir Data`
         file6
 
 Example with -l switch:
+
 $ `xdir Data -l`
 
     Data :
@@ -98,6 +99,7 @@ $ `xdir Data -l`
         file6 F 8 blks 121 bytes
 
 Example with -a switch:
+
 $ `xdir Data -a`
 
     Data :
@@ -113,6 +115,7 @@ $ `xdir Data -a`
         file6
 
 Example with both -l and -a switches:
+
 $ `xdir Data -l -a`
 
     Data :
