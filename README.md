@@ -8,9 +8,7 @@ Language: C
 
 ## Description
 
-Xdir is a custom directory command that uses low level C I/O functions to  
-display directory contents and additional file and directory details when  
-passed switches.
+Xdir is a custom directory command that uses low level C I/O functions to display directory contents and additional file and directory details when passed switches.
 
 ## What I Learned
 
