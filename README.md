@@ -8,14 +8,50 @@ Language: C
 
 ## Description
 
-Xdir is a custom directory command that uses low level C I/O functions to display the contents of the directory by default plus additional file and directory details when passed switches.
+Xdir is a custom directory command that uses low level C I/O functions to  
+display directory contents and additional file and directory details when  
+passed switches.
 
 ## What I Learned
 
-* First thing I learned...
-* Next I learned...
+* How to create custom directory commands.
+* How to use low level C I/O functions to access directory and file information.
 
 ### Command Descriptions
+
+xdir
+
+* Prints the directory name follwed by a colon.
+* Ignores any hidden files beginning with ".".
+* Prints filenames (unqualified) in the order they are provided by the readdir function.
+
+xdir -l
+
+* Prints the directory name followed by a colon.
+* Ignores any hidden files beginning with ".".
+* For each file, xdir prints the following:
+  * file name (unqualified)
+  * file type (F - regular file, D - directory, L - link, P - pipe)
+  * number of 512 byte blocks
+  * size in bytes
+  * Prints filenames in the order they are provided by the readdir function.
+
+xdir -a
+
+* Prints the directory name followed by a colon.
+* Prints any files including hidden files beginning with ".".
+* Prints filenames in the order they are provided by the readdir function.
+
+xdir -l -a
+
+* Prints the directory name followed by a colon.
+* Prints any files including hidden files beginning with ".".
+* For each file, xdir prints the following:
+  * file name (unqualified)
+  * file type (F - regular file, D - directory, L - link, P - pipe)
+  * number of 512 byte blocks
+  * size in bytes
+* Prints filenames in the order they are provided by the readdir function.
 
 ### Xdir Output
 
@@ -24,19 +60,19 @@ Xdir is a custom directory command that uses low level C I/O functions to displa
 From the command-line:  
 
 Clone the repository:  
-$ ```git clone https://github.com/geoffreysessums/Xdir.git```
+$ `git clone https://github.com/geoffreysessums/Xdir.git`
 
 Change to the Xdir directory.  
 Compile xdir.c:  
-$ ```make xdir.c```
+$ `make xdir.c`
 
 ## Usage
 
 Run command:
 
-xdir *directory*
+**xdir** *directory*
 
-xdir *directory* *switches*
+**xdir** *directory* *switches*
 
 Example without switches:
 
