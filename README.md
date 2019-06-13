@@ -53,14 +53,13 @@ xdir -l -a
 
 ## Installation
 
-From the command-line:  
+### From the Command-line
 
-Clone the repository:  
-$ `git clone https://github.com/geoffreysessums/Xdir.git`
-
-Change to the Xdir directory.  
-Compile xdir.c:  
-$ `make xdir.c`
+1. Clone the repository:
+  $ `git clone https://github.com/geoffreysessums/Xdir.git`
+2. Change to the Xdir directory.
+3. Compile xdir.c:
+  $ `make xdir.c`
 
 ## Usage
 
