@@ -64,7 +64,7 @@ $ `make xdir.c`
 
 ## Usage
 
-Run command:
+### Run Commands
 
 **xdir** *directory*
 
