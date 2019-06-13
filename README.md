@@ -40,16 +40,16 @@ xdir *directory* *switches*
 
 Example without switches:
 
-$ ```xdir Data```
+$ `xdir Data`
 
-  Data :  
-      Program2  
-      Program5  
-      Program4  
-      Program3  
-      file4  
-      file5  
-      file6  
+Data :  
+        Program2
+        Program5  
+        Program4
+        Program3
+        file4
+        file5
+        file6
 
 Example with -l switch:
 $ ```xdir Data -l```
