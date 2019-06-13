@@ -22,11 +22,13 @@ Xdir is a custom directory command that uses low level C I/O functions to displa
 ## Installation
 
 From the command-line:  
-Clone the repository.  
-    $ git clone https://github.com/geoffreysessums/Xdir.git  
+
+Clone the repository:  
+```$ git clone https://github.com/geoffreysessums/Xdir.git```
+
 Change to the Xdir directory.  
-Compile xdir.c  
-    $ make xdir.c  
+Compile xdir.c:  
+```$ make xdir.c```
 
 ## Usage
 
