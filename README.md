@@ -56,9 +56,11 @@ xdir -l -a
 ### From the Command-line
 
 1. Clone the repository:
+
     $ `git clone https://github.com/geoffreysessums/Xdir.git`
 2. Change to the Xdir directory.
 3. Compile xdir.c:
+
     $ `make xdir.c`
 
 ## Usage
