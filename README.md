@@ -1,10 +1,8 @@
 # Xdir
 
-Geoffrey Sessums
-
-Systems Programming (Fall 2017)
-
-Language: C
+Geoffrey Sessums  
+CS 3423 Systems Programming - Fall 2017  
+Language: C  
 
 ## Description
 
